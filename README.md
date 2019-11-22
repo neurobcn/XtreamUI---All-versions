@@ -18,6 +18,24 @@ https://clients.first-store.fr/admin/index.php (admin - wissel24101201)
 
 ftp://root:PilaritO@paca.dyndns.org/
 
+19
+
+Changelog:
+Redone M3U import for streams, should be better now! Should work for those who it didn't work for before.
+Added M3U Import / Folder Import for Movies. Scans TMDb in the background using a cronjob.
+Added re-process TMDb to Mass Edit.
+Fixed mass delete of episodes.
+Added notes to Streams, Movies and Episodes page.
+
+R19A - 21/11/2019 16:15
+
+Added folder watching for movies, cron and assorted pages (dropdown for settings).
+Fixed transcoding profile creator.
+Fixed target container on mass import.
+
+
+18
+
 [b][u]THIS ISN'T A REQUEST THREAD - PLEASE STOP POSTING REQUESTS HERE! Use the dedicated forum[/u][/b]
 [b][u]ANYONE SHARING THIS TO NON-DONATORS WILL BE BANNED[/u][/b]
 

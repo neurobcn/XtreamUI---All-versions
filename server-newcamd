@@ -1,0 +1,532 @@
+
+[reader]
+label                         = emulator
+enable                        = 0
+protocol                      = emu
+device                        = emulator
+caid                          = 0D00&0F00,090F,0500,1801,0604,2600,FFFF
+detect                        = cd
+ident                         = 0D00:000000,000004,000010,000014,000020,0000C0,0000C4,0000CC;0D02:000000,00008C,0000A0,0000A4,0000A8;0D03:000000,000004,000008,000024,000028;0D05:000000,000004,000010;090F:000000;0500:000000,030B00,023800,021110,007400,007800;1801:000000;0604:000000
+group                         = 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64
+emmcache                      = 1,1,2,0
+auprovid                      = 030B00
+
+[reader]
+label                         = OSEmu
+enable                        = 0
+protocol                      = cs357x
+device                        = 127.0.0.1,11000
+user                          = user
+password                      = password
+caid                          = 0D00,4AEE,5581,0D02,0D03,0D05,090F,0500,1801,0604,2600,FFFF
+ident                         = 0D00:000000,000004,000010,000014,000020,0000C0,0000C4,0000CC;5581:000000;4AEE:000000;0D02:000000,00008C,0000A0,0000A4,0000A8;0D03:000000,000004,000008,000024,000028;0D05:000000,000004,000010;090F:000000;0500:000000,030B00,023800,021110,007400,007800;1801:000000;0604:000000
+group                         = 1
+
+[reader]
+label                         = china_tvv
+enable                        = 0
+protocol                      = newcamd
+device                        = servidor3.rapidodns.com,29718
+key                           = 0102030405060708091011121314
+user                          = zippoBe
+password                      = belg
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006C
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = ozi
+enable                        = 0
+protocol                      = newcamd
+device                        = havefun.lovel4ever.eu,20820
+key                           = 0102030405060708091011121314
+user                          = ipxiptvv
+password                      = tvvxipxpions
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = memoastra
+enable                        = 0
+protocol                      = newcamd
+device                        = cable.hdmedia.me,11170
+key                           = 0102030405060708091011121314
+user                          = memoastra1
+password                      = 1astramemo
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = onze_kaarten_nl
+enable                        = 0
+protocol                      = newcamd
+device                        = cable2.hdmedia.me,7001
+key                           = 0102030405060708091011121314
+user                          = user01
+password                      = 01user
+services                      = onze_kaarten
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = richard_cnl1
+protocol                      = newcamd
+device                        = playergame.hotdns.info,18034
+key                           = 0102030405060708091011121314
+user                          = gokhan3
+password                      = gokhan3
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = richard_cnl2
+protocol                      = newcamd
+device                        = playergame.hotdns.info,18034
+key                           = 0102030405060708091011121314
+user                          = amincd2
+password                      = amincd2
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = china_cnl1
+enable                        = 0
+protocol                      = newcamd
+device                        = cable2.hdmedia.me,11216
+key                           = 0102030405060708091011121314
+user                          = astra2
+password                      = astra2
+services                      = !foxsports1-2-4-eurosp1,!film1_all,!192tv-tlc-npo3-rtl4,!discovery-history-rtl8-z
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = next.jado
+enable                        = 0
+protocol                      = newcamd
+device                        = next.jadobox.eu,15007
+key                           = 0102030405060708091011121314
+user                          = gokoscam
+password                      = nlgokoscam
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = TVV-Alec
+protocol                      = newcamd
+device                        = line1.ip2dns.xyz,9024
+key                           = 0102030405060708091011121314
+user                          = jimbojimbo884-tvv
+password                      = tvv
+caid                          = 0100
+ident                         = 0100:00006C,00006D
+group                         = 1
+
+[reader]
+label                         = nl-Alec
+enable                        = 0
+protocol                      = newcamd
+device                        = line1.ip2dns.xyz,9024
+key                           = 0102030405060708091011121314
+user                          = jimbojimbo884-nl
+password                      = nl
+connectoninit                 = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1
+
+[reader]
+label                         = TVV-Bojan
+enable                        = 0
+protocol                      = newcamd
+device                        = 5.189.141.170,35006
+key                           = 0102030405060708091011121314
+user                          = tvv.nl3
+password                      = dc2017
+caid                          = 0100
+ident                         = 0100:00006C,00006D
+group                         = 1
+
+[reader]
+label                         = TVV-Musti
+enable                        = 0
+protocol                      = newcamd
+device                        = 185.53.163.202,16284
+key                           = 0102030405060708091011121314
+user                          = wedobox1
+password                      = wedobox1
+caid                          = 0100
+ident                         = 0100:00006C,00006D
+group                         = 1
+
+[reader]
+label                         = TVV-Jim
+enable                        = 0
+protocol                      = newcamd
+device                        = keeton.hopto.org,16000
+key                           = 0102030405060708091011121314
+user                          = cdnlsanta1
+password                      = TvvCdjim-1
+caid                          = 0100
+ident                         = 0100:00006C
+group                         = 1
+ratelimitecm                  = 4
+ratelimittime                 = 11000
+srvidholdtime                 = 2000
+
+[reader]
+label                         = TVV-Jim-2
+enable                        = 0
+protocol                      = newcamd
+device                        = keeton.hopto.org,16000
+key                           = 0102030405060708091011121314
+user                          = cdnlsanta2
+password                      = TvvCdjim-2
+caid                          = 0100
+ident                         = 0100:00006C
+group                         = 1
+ratelimitecm                  = 4
+ratelimittime                 = 11000
+srvidholdtime                 = 2000
+
+[reader]
+label                         = nextstop
+enable                        = 0
+protocol                      = newcamd
+device                        = nextstop.sytes.net,3005
+key                           = 0102030405060708091011121314
+user                          = testingde
+password                      = detesting
+disableserverfilter           = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 098C
+ident                         = 098C:000000
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = BART_TVV
+enable                        = 0
+protocol                      = newcamd
+device                        = havefun.sytes.net,1070
+key                           = 0102030405060708091011121314
+user                          = bexlokk1
+password                      = bexlokalx2
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006C
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = BART_TVV_2
+enable                        = 0
+protocol                      = newcamd
+device                        = havefun.sytes.net,1070
+key                           = 0102030405060708091011121314
+user                          = bexlokk2
+password                      = bexlokalx22
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006C
+group                         = 1
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedoboxx
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23143
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk
+password                      = jimskloKK
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedoboxx_2
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23143
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-2
+password                      = jimskloKK-2
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedoboxx_3
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23143
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-3
+password                      = jimskloKK-3
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedoboxx_4
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23143
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-4
+password                      = jimskloKK-4
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedobox
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23106
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk
+password                      = jimskloKK
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A,00006C
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedobox_2
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23106
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-2
+password                      = jimskloKK-2
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A,00006C
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedobox_3
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23106
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-3
+password                      = jimskloKK-3
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A,00006C
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = wedobox_4
+enable                        = 0
+protocol                      = newcamd
+device                        = dejavu.sytes.net,23106
+key                           = 0102030405060708091011121314
+user                          = Lokjimsk-4
+password                      = jimskloKK-4
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A,00006C
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = nextstop_1
+enable                        = 0
+protocol                      = newcamd
+device                        = nextstop.sytes.net,3014
+key                           = 0102030405060708091011121314
+user                          = LOkkSkylink
+password                      = Skylinklook
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = nextstop_2
+enable                        = 0
+protocol                      = newcamd
+device                        = nextstop.sytes.net,3014
+key                           = 0102030405060708091011121314
+user                          = LOkkSkylink-2
+password                      = Skylinklook-2
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = nextstop_3
+enable                        = 0
+protocol                      = newcamd
+device                        = nextstop.sytes.net,3014
+key                           = 0102030405060708091011121314
+user                          = LOkkSkylink-3
+password                      = Skylinklook-3
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = nextstop_4
+enable                        = 0
+protocol                      = newcamd
+device                        = nextstop.sytes.net,3014
+key                           = 0102030405060708091011121314
+user                          = LOkkSkylink-4
+password                      = Skylinklook-4
+disableserverfilter           = 1
+connectoninit                 = 1
+fallback                      = 1
+cacheex                       = 1
+caid                          = 0D96
+ident                         = 0D96:000000,000004,000008,00000C,000010,000048
+group                         = 1,2
+blockemm-unknown              = 1
+saveemm-unknown               = 1
+
+[reader]
+label                         = havefunCNL
+enable                        = 0
+protocol                      = newcamd
+device                        = havefun.lovel4ever.eu,20820
+key                           = 0102030405060708091011121314
+user                          = bizexcnl1
+password                      = cnl2xbize
+connectoninit                 = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+
+[reader]
+label                         = skypeCNL
+enable                        = 0
+protocol                      = newcamd
+device                        = 79.137.25.232,12028
+key                           = 0102030405060708091011121314
+user                          = dream11
+password                      = server31
+connectoninit                 = 1
+caid                          = 0100
+ident                         = 0100:000000,00006A
+group                         = 1

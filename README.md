@@ -8,6 +8,11 @@ https://xtream-ui.com/donator.php
 Username: wissdz27
 Password: wissel24101201
 
+forum_password
+221901
+forum_username
+rjubranjr
+
 or use
 https://xtream-ui.com/install/donator.php?username=XXXXXX&password=XXXXX
 

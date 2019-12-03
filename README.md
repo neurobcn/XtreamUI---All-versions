@@ -25,7 +25,7 @@ please do not delete my accounts, thanks
 http://kiks-iptv.com:25550
 
 
-111111 --- 111111
+111111 --- 111111 or
 3abas --- 201179
 
 --------

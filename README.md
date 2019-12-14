@@ -5,11 +5,7 @@ Entry for download
 
 https://xtream-ui.com/donator.php
 
-The accounts have been banned. If you want an account, decrypt this email: arhebnbd@tznvy.pbz
-
-
-Username: wissdz27
-Password: wissel24101201
+If you want an account, decrypt this email: arhebnbd@tznvy.pbz
 
 forum_password
 221901

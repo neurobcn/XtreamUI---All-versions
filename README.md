@@ -1,52 +1,17 @@
-# XtreamUI-R120 Official
-Xtream UI 20 official
 
-Entry for download
-
-https://xtream-ui.com/donator.php
-
-If you want an account, decrypt this email: arhebnbd@tznvy.pbz
-
-forum_password
-221901
-forum_username
-rjubranjr
-
-forum_password
-201179
-forum_username
-3abas
-
-Do you want an IPTV account?
-
-please do not delete my accounts, thanks
-
-http://kiks-iptv.com:25550
-
-
-111111 --- 111111 or
-3abas --- 201179
-
+Finished project. Security does not exist. If you are imaginative you can access the panels easily.
 --------
 
 or use
 https://xtream-ui.com/install/donator.php?username=XXXXXX&password=XXXXX
 
 
-Backup database whmcs of
-
-https://clients.first-store.fr/admin/index.php (admin - wissel24101201)
-
-ftp://root:PilaritO@paca.dyndns.org/
-
-19
-
-Changelog:
+Backup database whmcs ofChangelog:
 Redone M3U import for streams, should be better now! Should work for those who it didn't work for before.
 Added M3U Import / Folder Import for Movies. Scans TMDb in the background using a cronjob.
 Added re-process TMDb to Mass Edit.
 Fixed mass delete of episodes.
-Added notes to Streams, Movies and Episodes page.
+Added notes to Streams, Movies and Episodes page
 
 R19A - 21/11/2019 16:15
 
@@ -110,9 +75,7 @@ Last thread got a little too long... Fixed a few things, lets' try again.
 [list]Fixed player for VOD.[/list]
 [list]Fixed mass delete not deleting actual files.[/list]
 [list]Fixed only one IP / User Agent saving in restrictions.[/list]
-[list]Added multiple episode import.[/list]
-[list]Added a bunch of new settings.[/list]
-[list]Fixed last modified date for series.[/list]
+[list]Added multiple episode import.[/list].[/list]
 [list]Added tooltips for every button.[/list]
 [list]Fixed episode number when adding episodes.[/list]
 [list]Fixed trial credits in packages.[/list]
@@ -139,28 +102,4 @@ If backups aren't working for you, run the following command:
 
 [b]PROCESS MONITORING[/b]
 So I've made a process killer that checks all PID's in the database against live PID's on the server, killing any it doesn't need. This could potentially help people running into CPU issues, or just help in general as XC isn't the best at killing PID's.
-
-pid_monitor.zip
-
-
-To install it, download the file from above and extract it here (on each server you want it running on, include LB's):
-[code]/home/xtreamcodes/iptv_xtream_codes/crons/[/code]
-
-
-[b]INSTALL[/b]
-
-For manual update, download the release from the link below.
-[url]https://xtream-ui.com/donator.php[/url]
-
-
-For the SSH update option below, you will need to replace ##USERNAME## and ##PASSWORD## with your forum credentials. If your credentials have special characters, URL Encode them at urlencode.org
-
-[b]Update Script - Blocks GeoLite2.mmdb[/b]
-
-[code]apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && rm -rf /home/xtreamcodes/iptv_xtream_codes/adtools && wget "https://xtream-ui.com/install/donator.php?username=##USERNAME##&password=##PASSWORD##" -O /tmp/update.zip -o /dev/null && unzip /tmp/update.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/update.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && /home/xtreamcodes/iptv_xtream_codes/start_services.sh[/code]
-
-
-
-
-
 
